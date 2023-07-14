@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>[LinkedIn](https://www.linkedin.com/in/nickloughren/)</p>
+    <p><a href="https://www.linkedin.com/in/nickloughren/">LinkedIn</a></p>
     <p>nickloughren@gmail.com</p>
     <p>🍁Winnipeg, MB🍁</p>
 
