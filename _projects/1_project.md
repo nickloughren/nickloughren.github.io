@@ -1,18 +1,21 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: ArduinoBot
+description: The Arduino that walks
 img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: einstein1956investigations, einstein1950meaning
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Over the summer of 2022, I devised a plan to design, program and build a compact 3D printed bipedal robot. My goals for this project were the following: 1) Keep the design simple and easy to build, 2) Minimize the overall weight of the robot 3) Minimize cost, 4) Maximize travel speed/stride length. In the end I believe I acheived these goals. The final product , 1) Takes <6 hours to print and <30 min to assemble, 2) weighs only ___ grams, 3) costs <$30 4) moves at break-neck speed (~1cm/s).
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+| Item              | In Stock | Price |
+| :---------------- | :------: | ----: |
+| Python Hat        |   True   | 23.99 |
+| SQL Hat           |   True   | 23.99 |
+| Codecademy Tee    |  False   | 19.99 |
+| Codecademy Hoodie |  False   | 42.99 |
 
     ---
     layout: page
