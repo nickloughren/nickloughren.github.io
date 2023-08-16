@@ -17,12 +17,7 @@ Over the summer of 2022, I devised a plan to design, program and build a compact
 | Codecademy Tee    |  False   | 19.99 |
 | Codecademy Hoodie |  False   | 42.99 |
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Overall, ArduinoBot was a very fun project and challenged me to apply my knowledge of CAD (specifically SolidWorks), 3D-printing and robot control using C++.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
