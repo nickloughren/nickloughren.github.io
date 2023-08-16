@@ -8,6 +8,12 @@ category: work
 related_publications: einstein1956investigations, einstein1950meaning
 ---
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/arduinobot_on_table.jpg" title="ArduinoBot chillin on a table" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 Over the summer of 2022, I devised a plan to design, program and build a compact 3D printed bipedal robot. My goals for this project were the following:
 
 | :------------------- | -------------------: |
