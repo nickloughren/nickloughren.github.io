@@ -8,6 +8,30 @@ category: work
 related_publications:
 ---
 
+<div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+{%- if page.profile.image %}
+    {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+
+    {% if page.profile.image_circular %}
+    {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+    {% else %}
+    {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+    {% endif %}
+
+    {% include figure.html
+    path=profile_image_path
+    class=profile_image_class
+    alt=page.profile.image -%}
+
+{% endif -%}
+{%- if page.profile.address %}
+
+<div class="address">
+    {{ page.profile.address }}
+</div>
+{%- endif %}
+</div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/arduinobot_on_table.jpg" title="ArduinoBot chillin on a table" class="img-fluid rounded z-depth-1" %}
@@ -24,6 +48,9 @@ Over the summer of 2022, I devised a plan to design, program and build a compact
 | Minimize Cost | Costs <$30 |
 | Minimize Weight | Weighs 100 grams |
 | Maximize Travel Speed & Stride Length | Moves lightning fast (~8mm/s) |
+
+<div class="row">
+</div>
 
 Overall, ArduinoBot was a very fun project and challenged me to apply my knowledge of CAD (specifically SolidWorks), 3D-printing and robot control using C++.
 
