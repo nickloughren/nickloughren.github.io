@@ -8,14 +8,16 @@ category: work
 related_publications: einstein1956investigations, einstein1950meaning
 ---
 
-Over the summer of 2022, I devised a plan to design, program and build a compact 3D printed bipedal robot. My goals for this project were the following: 1. Keep the design simple and easy to build, 2. Minimize the overall weight of the robot 3. Minimize cost, 4. Maximize travel speed/stride length. In the end I believe I acheived these goals. The final product , 1. Takes <6 hours to print and <30 min to assemble, 2. weighs only grams, 3. costs <$30 4. moves at break-neck speed (~1cm/s).
+Over the summer of 2022, I devised a plan to design, program and build a compact 3D printed bipedal robot. My goals for this project were the following:
 
-| Item              | In Stock | Price |
-| :---------------- | :------: | ----: |
-| Python Hat        |   True   | 23.99 |
-| SQL Hat           |   True   | 23.99 |
-| Codecademy Tee    |  False   | 19.99 |
-| Codecademy Hoodie |  False   | 42.99 |
+| :------------------- | -------------------: |
+| Objective | Final outcome |
+| :------------------- | -------------------: |
+| Minimize Complexity | 30 individul parts (including fasteners) |
+| Minimize Manufacturing Time | Takes <3 hours to print and <30 min to assemble |
+| Minimize Cost | Costs <$30 |
+| Minimize Weight | Weighs 100 grams |
+| Maximize Travel Speed & Stride Length | Moves lightning fast (~8mm/s) |
 
 Overall, ArduinoBot was a very fun project and challenged me to apply my knowledge of CAD (specifically SolidWorks), 3D-printing and robot control using C++.
 
