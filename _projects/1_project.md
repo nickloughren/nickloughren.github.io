@@ -2,39 +2,18 @@
 layout: page
 title: ArduinoBot
 description: The Arduino that walks
-img: assets/img/arduino_on_table.jpg
+img: assets/img/arduinobot_on_table.jpg
 importance: 1
 category: work
 related_publications:
 ---
 
-<div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-{%- if page.profile.image %}
-    {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
-
-    {% if page.profile.image_circular %}
-    {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-    {% else %}
-    {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-    {% endif %}
-
-    {% include figure.html
-    path=profile_image_path
-    class=profile_image_class
-    alt=page.profile.image -%}
-
-{% endif -%}
-{%- if page.profile.address %}
-
-<div class="address">
-    {{ page.profile.address }}
-</div>
-{%- endif %}
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/arduinobot_on_table.jpg" title="ArduinoBot chillin on a table" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-sm-center">
+    <div class="col-sm-7 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/arduinobot_on_table.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-5 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/arduinobot_exploded_long.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -46,13 +25,20 @@ Over the summer of 2022, I devised a plan to design, program and build a compact
 | Minimize Complexity | 30 individul parts (including fasteners) |
 | Minimize Manufacturing Time | Takes <3 hours to print and <30 min to assemble |
 | Minimize Cost | Costs <$30 |
-| Minimize Weight | Weighs 100 grams |
+| Minimize Weight | Uses only 18g of filament |
 | Maximize Travel Speed & Stride Length | Moves lightning fast (~8mm/s) |
 
 <div class="row">
+ 
 </div>
 
 Overall, ArduinoBot was a very fun project and challenged me to apply my knowledge of CAD (specifically SolidWorks), 3D-printing and robot control using C++.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/arduinobot_walking.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
