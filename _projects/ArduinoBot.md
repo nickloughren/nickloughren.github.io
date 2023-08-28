@@ -23,7 +23,7 @@ Over the summer of 2022, I devised a plan to design, program and build a compact
 
 | Objective                             |                                   Final outcome |
 | :------------------------------------ | ----------------------------------------------: |
-| Minimize Complexity                   |        30 individul parts (including fasteners) |
+| Minimize Complexity                   |       30 individual parts (including fasteners) |
 | Minimize Manufacturing Time           | Takes <3 hours to print and <30 min to assemble |
 | Minimize Cost                         |                                      Costs <$30 |
 | Minimize Weight                       |                       Uses only 18g of filament |
@@ -31,13 +31,13 @@ Over the summer of 2022, I devised a plan to design, program and build a compact
 
 <br />
 
-## Design Rational
+## Design Rationale
 
 ---
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-My little friend started as a sketch in OneNote (on the right). The idea was to make a statically stable robot that moved by lifting a foot (1), rotating its body forward (2), lowering the foot (3) and repeating with the opposite foot. However,because the dark blue servos are arranged horizontally and the light blue servos are directly vertical, all the gravitational load is being put on the light blue servos. The dark blue servos would only have to overcome the inertia of the robot, which is comparitively small.<br /> <br />
+My little friend started as a sketch in OneNote (on the right). The idea was to make a statically stable robot that moved by lifting a foot (1), rotating its body forward (2), lowering the foot (3) and repeating with the opposite foot. However, because the dark blue servos are arranged horizontally and the light blue servos are directly vertical, all the gravitational load is being put on the light blue servos. The dark blue servos would only have to overcome the inertia of the robot, which is comparatively small.<br /> <br />
 
 {% include figure.html path="assets/img/AB_45deg_markup.png" title="example image" class="img-fluid rounded z-depth-1" %}
 
